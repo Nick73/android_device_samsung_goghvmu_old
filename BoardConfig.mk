@@ -27,8 +27,8 @@
 -include vendor/samsung/goghvmu/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := goghvmu
+TARGET_OTA_ASSERT_DEVICE := goghspr,goghvmu,Axiom,Victory,SPH-L300
 
 # Kernel
-TARGET_KERNEL_CONFIG        := gogh_defconfig
+TARGET_KERNEL_CONFIG := gogh_defconfig
 

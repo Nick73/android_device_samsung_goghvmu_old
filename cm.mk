@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/gogvmu/full_gogvmu.mk)
+$(call inherit-product, device/samsung/goghvmu/full_goghvmu.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/cdma.mk)
