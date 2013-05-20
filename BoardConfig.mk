@@ -26,6 +26,10 @@
 # inherit from the proprietary version
 -include vendor/samsung/goghvmu/BoardConfigVendor.mk
 
+# Wifi
+WIFI_DRIVER_MODULE_NAME          := prima_wlan
+WIFI_DRIVER_MODULE_PATH          := "/system/lib/modules/prima_wlan.ko"
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := goghspr,goghvmu,Axiom,Victory,SPH-L300
 
