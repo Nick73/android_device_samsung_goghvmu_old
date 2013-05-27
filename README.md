@@ -35,19 +35,15 @@ Download the vendor files
 
 Download the common files
 
-    git clone git://github.com/vmobi-victory/android_device_samsung_gogh-common.git -b jellybean vendor/samsung/gogh-common
-
-Download the common 8690 files
-
-    git clone git://github.com/CyanogenMod/android_device_samsung_msm8960-common.git -b jellybean vendor/samsung/msm8960-common
+    git clone git://github.com/vmobi-victory/android_device_samsung_gogh-common.git -b jellybean device/samsung/gogh-common
 
 Download the common qcom files
 
-    git clone git://github.com/CyanogenMod/android_device_samsung_qcom-common.git -b jellybean vendor/samsung/qcom-common
+    git clone git://github.com/CyanogenMod/android_device_samsung_qcom-common.git -b jellybean device/samsung/qcom-common
 
 Download the kernel source
 
-    git clone git://github.com/vmobi-victory/android_kernel_samsung_gogh.git kernel/samsung/gogh
+    git clone git://github.com/vmobi-victory/android_kernel_samsung_goghvmu.git kernel/samsung/goghvmu
 
 Time to configure the CyanogenMod prebuilts
 
